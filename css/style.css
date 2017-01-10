@@ -1069,7 +1069,7 @@
 /*********************************************************************************/
 
 	#home {
-		background: url('../images/home_bg.png') no-repeat;
+		background: url('../images/home_bg.jpg') no-repeat;
 		background-size: cover;
 		background-position: center center;
 	}
@@ -1079,7 +1079,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('../images/intro_bg.png');
+		background: url('../images/intro_bg.jpg');
 		background-size: cover;
 		background-position: center, center;
 	}
