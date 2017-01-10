@@ -79,7 +79,7 @@
 			// Disable animations/transitions until everything's loaded
 				$all
 					.addClass('loading')
-					.fadeTo(0, 0.1);
+					.fadeTo(0, 0.5);
 				
 				$window.load(function() {
 					window.setTimeout(function() {
