@@ -297,3 +297,29 @@
 				});
 
 		});
+        
+        
+        
+ //by zhan
+ 		$(window).scroll(function(){
+		  $(".main").each(function(){
+			var vp=$(window).scrollTop();
+			var upInVp=$(this).offset().top-vp;
+			if(upInVp<-200){
+				$(this).find(".content").addClass("off");
+			}
+			
+			else if(upInVp<200 && upInVp>=-200){
+				$(this).find(".content").addClass("showup");
+				$(this).find(".content").removeClass("off");
+			}
+
+			else {
+				$(this).find(".content").removeClass("off");
+				$(this).find(".content").removeClass("showup");
+			}
+
+			});
+		});
+ 
+ //by zhan end
